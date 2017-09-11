@@ -13,38 +13,37 @@ if(isset($_POST['register_button'])){
 
 	//Registration form values
 
-	//First name
+
 	$fname = strip_tags($_POST['reg_fname']);
 	$fname = str_replace(' ', '', $fname); 
 	$fname = ucfirst(strtolower($fname)); 
 	$_SESSION['reg_fname'] = $fname; 
 
-	//Last name
 	$lname = strip_tags($_POST['reg_lname']);
 	$lname = str_replace(' ', '', $lname); 
 	$lname = ucfirst(strtolower($lname)); 
 	$_SESSION['reg_lname'] = $lname; 
 
-	//email
+
 	$em = strip_tags($_POST['reg_email']); 
 	$em = str_replace(' ', '', $em); 
 	$em = ucfirst(strtolower($em)); 
 	$_SESSION['reg_email'] = $em; 
 
-	//email 2
+
 	$em2 = strip_tags($_POST['reg_email2']); 
 	$em2 = str_replace(' ', '', $em2); 
 	$em2 = ucfirst(strtolower($em2)); 
 	$_SESSION['reg_email2'] = $em2; 
 
-	//Password
+
 	$password = strip_tags($_POST['reg_password']); 
 	$password2 = strip_tags($_POST['reg_password2']); 
 
 	$date = date("Y-m-d"); 
 
 	if($em == $em2) {
-		//Check if email is in valid format 
+	
 		if(filter_var($em, FILTER_VALIDATE_EMAIL)) {
 
 			$em = filter_var($em, FILTER_VALIDATE_EMAIL);

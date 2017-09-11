@@ -7,11 +7,9 @@ require 'includes/form_handlers/login_handler.php';
 <html>
 <head>
 	<title>Welcome to Buzzfeed!</title>
-	<link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/register_style.css">
 	<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
-	<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+	<script src="assets/js/jquery-3.2.1.js"></script>
 	<script src="assets/js/register.js"></script>
 	
 </head>
@@ -33,7 +31,6 @@ require 'includes/form_handlers/login_handler.php';
 		<div class="login_box">
 		<div class="login_header">
 			<h1>BuzzFeed</h1>
-			Login or Sign up Here!
 		</div>
 		<div id="first">
 			<form action="register.php" method ="POST">
@@ -97,7 +94,7 @@ require 'includes/form_handlers/login_handler.php';
 					<button type="submit" class="pure-button pure-button-primary" id="login" name="register_button">Register</button>
 					<br>
 					<?php if(in_array("<span style='color: #14C800;'>You're all set! Go ahead and login!</span><br>", $error_array)) echo "<span style='color: #14C800;'>You're all set! Go ahead and login!</span><br>"; ?>
-					<a href="#" id="signin">Already an account?Sign in Here!!</a>
+					<a href="#" id="signin">Already an account? Sign in Here!!</a>
 				</form>
 			</div>
 		</div>

@@ -1,3 +1,11 @@
+@font-face{
+    font-family: 'Acme';
+    src: url('../fonts/Acme-Regular.ttf');
+}
+@font-face{
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Regular.ttf');
+}
 form{
     text-align: center;
 }
@@ -22,7 +30,7 @@ body{
     position: relative;
     margin-right: auto;
     margin-left: auto;
-    top: 20%;
+    top: 21%;
     width: 35%;
     background-color: #ffffff;
     border: 1px solid #ededed;
@@ -47,6 +55,7 @@ body{
     font-family: 'Acme', sans-serif;
     text-shadow: #000 0.5px 0.5px 0px;
     font-size:250%;
+    padding-top: 20px;
 }
 
 #login
@@ -54,6 +63,7 @@ body{
     background-color:#3A539B;
     border: 1px solid #3A539B; 
     color: #fff;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 
@@ -74,4 +84,8 @@ input[type="text"]:hover,input[type="email"]:hover,input[type="password"]:hover
 
 #second{
     display: none;
+    padding: 13px;
+}
+#first{
+    padding: 13px;
 }
