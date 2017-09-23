@@ -1,11 +1,6 @@
 <?php
-require 'config/config.php';
+include("includes/header.php");
 ?>
-<html>
-<head>
-  <title>Welcome to Buzz Feed </title>
-</head>
-<body>
 Hello Pavan
 </body>
 </html>
