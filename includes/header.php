@@ -12,39 +12,52 @@ else{
 ?>
 <html>
 <head>
-  <title>Welcome to Buzz Feed </title>
-  <script src="assets/js/jquery-3.2.1.js"></script>
-  <script src="assets/js/bootstrap.js"></script>
+	<title>Welcome to Bhimmer</title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="assets/js/bootstrap.js"></script>
+
+
   <link rel="stylesheet"  type="text/css" href="assets/css/bootstrap.css">
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-    <link rel="stylesheet" href="assets/css/font-awesome.css">
+  <link rel="stylesheet" href="assets/css/header.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/font-awesome.css">
+
 </head>
 <body>
 
-    <div class="top_bar">
-        <div class="logo">
-            <a href="index.php">BuzzFeed</a>
-        </div>
-        <nav>
-        <a href="#">
-               <?php
-                echo $user['first_name'];
-               ?>
-            </a>
-            <a href="index.php">
-                <i class="fa fa-home fa-lg"></i>
-            </a>
-            <a href="#">
-                <i class="fa fa-envelope fa-lg"></i>
-            </a>
-            <a href="#">
-                <i class="fa fa-bell-o fa-lg"></i>
-            </a>
-            <a href="#">
-                <i class="fa fa-users fa-lg"></i>
-            </a>
-            <a href="#">
-                <i class="fa fa-cog fa-lg"></i>
-            </a>
-        </nav>
-    </div>
+	<div class="top_bar"> 
+
+		<div class="logo">
+			<a href="index.php">Bhimmer!</a>
+		</div>
+
+		<nav>
+			<a href="<?php echo $userLoggedIn; ?>">
+				<?php echo $user['first_name']; ?>
+			</a>
+			<a href="index.php">
+				<i class="fa fa-home fa-lg"></i>
+			</a>
+			<a href="#">
+				<i class="fa fa-envelope fa-lg"></i>
+			</a>
+			<a href="#">
+				<i class="fa fa-bell fa-lg"></i>
+			</a>
+			<a href="#">
+				<i class="fa fa-users fa-lg"></i>
+			</a>
+			<a href="#">
+				<i class="fa fa-cog fa-lg"></i>
+			</a>
+			<a href="includes/handlers/logout.php">
+				<i class="fa fa-sign-out fa-lg"></i>
+			</a>
+
+
+		</nav>
+
+	</div>
+
+
+	<div class="wrapper">
