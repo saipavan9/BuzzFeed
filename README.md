@@ -2,8 +2,8 @@
 
 ## Registration Page of BuzzFeed
 
-![alt text](assets/screenshots/register.png "Registration Page ")
+![alt text](assets/screenshots/register1.png "Registration Page ")
 
 ## NewsFeed Page
 
-![alt text](assets/screenshots/Newsfeed.png "News Feed Page ")
+![alt text](assets/screenshots/Newsfeed1.png "News Feed Page ")
