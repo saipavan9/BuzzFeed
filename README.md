@@ -1,4 +1,4 @@
 # BuzzFeed
 
 
-![alt text](../../../Users/SAIPAVAN/Pictures/Screenshots/register.png "Registration Page")
+![alt text](assets/screenshots/register.png "Registration Page ")
