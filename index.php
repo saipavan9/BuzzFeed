@@ -5,7 +5,7 @@ include("includes/classes/Post.php");
 if(isset($_POST['post']))
 {
     $post = new Post($con,$userLoggedIn);
-    $post->submitPOst($_POST['post_text'],'none');
+    $post->submitPost($_POST['post_text'],'none');
 }
 ?>
 <div  class="user_details column">
