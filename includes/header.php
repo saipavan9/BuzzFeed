@@ -15,12 +15,18 @@ else{
 	<title>Welcome to BuzzFeed</title>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	<script src="assets/js/bootstrap.js"></script>
+  <script src="assets/js/bootstrap.js"></script>
+  <script src="assets/js/bootbox.min.js"></script>
+  <script src="assets/js/demo.js"></script>
+  <script src="assets/js/jquery.jcrop.js"></script>
+  <script src="assets/js/jcrop_bits.js"></script>
+
 
 
   <link rel="stylesheet"  type="text/css" href="assets/css/bootstrap.css">
   <link rel="stylesheet" href="assets/css/style.css" type="text/css">
   <link rel="stylesheet" href="assets/css/font-awesome.css">	
+  <link rel="stylesheet" href="assets/css/jquery.Jcrop.css" type="text/css" />
 
 </head>
 <body>
@@ -35,7 +41,7 @@ else{
       <li><a class="link-1" href="index.php"><i class="fa fa-home fa-lg"></i></a></li>
        <li><a class="link-2" href="#"><i class="fa fa-envelope fa-lg"></i></a></li>
       <li><a class="link-3" href="#"><i class="fa fa-bell fa-lg"></i></a></li>
-	  <li><a class="link-4" href="#"><i class="fa fa-users fa-lg"></i></a></li>
+	  <li><a class="link-4" href="requests.php"><i class="fa fa-users fa-lg"></i></a></li>
 	  <li><a class="link-4" href="#"><i class="fa fa-cog fa-lg"></i></a></li>
 	  <li><a class="link-4" href="includes/handlers/logout.php"><i class="fa fa-sign-out fa-lg"></i></a></li>
     </ul>
