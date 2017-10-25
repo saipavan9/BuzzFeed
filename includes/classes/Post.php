@@ -388,8 +388,8 @@ class Post{
                                 </div>
 
                                 <div class='newsfeedPostOptions'>
-                                    Comments($comments_check_num)&nbsp;&nbsp;&nbsp;
-                                    <iframe src='like.php?post_id=$id' scrolling='no'></iframe>
+                                    <i class='fa fa-thumbs-o-up'></i><iframe src='like.php?post_id=$id' scrolling='no'>Likes</iframe>
+                                    <i class='fa fa-comments-o' style='margin-left:100px;'></i> Comments($comments_check_num)&nbsp;&nbsp;&nbsp;    
                                 </div>
 
                             </div>

@@ -31,6 +31,8 @@ header {
   top: 0px;
   left: 0px;
   padding: 0px 0px 0px 30px;
+  box-shadow: 1px 1.5px 1px black;
+  z-index: 6;
 }
 
 header h1 {
@@ -241,10 +243,10 @@ textarea:focus {
 	height: 100%;
 	float: left;
 	position: relative;
-	background-color: #37B0E9;
-	border-right: 10px solid #83D6FE;
+	background-color: #384F90;
 	color: #CBEAF8;
 	margin-right: 20px;
+	z-index: 2;
 	
 }
 
@@ -252,15 +254,20 @@ textarea:focus {
 	min-width: 80px;
 	width: 55%;
 	margin: 20px;
-	border: 5px solid #83D6FE;
+	border: 3px solid white;
 	border-radius: 100px;
 }
 
 .profile_info {
+	margin-left: 8px;
 	display: list-item;
-	background-color: #2980b9;
-	width: 100%;
+	background-color: #384F90;
+	width: 90%;
+	font-size: 16px;
+	line-height: 25px;
 	padding: 10px 0 10px 0;
+	opacity: 25%;
+	color: white;
 }
 
 .profile_info p {
@@ -293,7 +300,9 @@ textarea:focus {
 	border-radius: 5px;
 	margin: 7px 0 0 7px;
 	border: none;
-	color: #fff;
+	color:black;
+	box-shadow: 1px 1px 1px black;
+	background-color: #f6f6f6;
 }
 
 #accept_button{
