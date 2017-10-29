@@ -1,5 +1,6 @@
 <?php
 require 'config/config.php';
+include("includes/classes/Message.php");
 
 if (isset($_SESSION['username'])) {
     $userLoggedIn = $_SESSION['username'];
