@@ -65,7 +65,7 @@ else{
 	
 		<div class="search_results_footer_empty">
 		</div>
-		
+
 	</div>
 		<li><a class="link-1" href="<?php echo $userLoggedIn; ?>">
 				<?php echo $user['first_name']; ?>
@@ -90,7 +90,7 @@ else{
 				 echo '<span class="notification_badge" id="unread_requests">' . $num_requests . '</span>';
 				?> 
 		</a></li>
-	  <li><a class="link-4" href="#"><i class="fa fa-cog fa-lg"></i></a></li>
+	  <li><a class="link-4" href="settings.php"><i class="fa fa-cog fa-lg"></i></a></li>
 	  <li><a class="link-4" href="includes/handlers/logout.php"><i class="fa fa-sign-out fa-lg"></i></a></li>
     </ul>
   </nav>
