@@ -80,7 +80,7 @@ else{
 	  <li><a class="link-3" href="javascript:void(0);" onclick="getDropdownData('<?php echo $userLoggedIn; ?>','notification')"><i class="fa fa-bell fa-lg"></i>
 	  		<?php
 				if($num_notifications > 0)
-				 echo '<span class="notification_badge" id="unread_notification">' . $num_notifications . '</span>';
+				 echo '<span class="notification_badge1" id="unread_notification">' . $num_notifications . '</span>';
 				?> 	
 		</a></li>
 	  <li><a class="link-4" href="requests.php"><i class="fa fa-users fa-lg"></i>
