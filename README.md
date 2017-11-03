@@ -1,6 +1,6 @@
 # BuzzFeed
 
-#Steps to follow to use this project
+#Steps to use this project
 
 a.	Download the source code </br>
 b.	Create a database as “social” in PhpMyAdmin. </br>
